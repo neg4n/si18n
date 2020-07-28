@@ -1,5 +1,5 @@
 {
-  "name": "si18n",
+  "name": "@neg4n/si18n",
   "version": "1.0.0",
   "description": "simple internationalization",
   "main": "dist/index.js",
