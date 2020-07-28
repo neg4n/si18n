@@ -1,0 +1,36 @@
+{
+  "name": "si18n",
+  "version": "1.0.0",
+  "description": "simple internationalization",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neg4n/si18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "lightweight"
+  ],
+  "author": "neg4n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neg4n/si18n/issues"
+  },
+  "homepage": "https://github.com/neg4n/si18n/#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "tslint": "^6.1.2",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "yaml": "^1.10.0"
+  }
+}
