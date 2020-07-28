@@ -2,9 +2,6 @@
   "name": "si18n",
   "version": "1.0.0",
   "description": "simple internationalization",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
