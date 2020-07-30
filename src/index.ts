@@ -15,7 +15,7 @@ export class Si18n {
     const files = fs.readdirSync(path, { encoding: 'utf-8' })
     for (const file of files) {
       // Skip files other than YAML documents
-      if (!file.endsWith('.yml')) {
+      if (!file.endsWith('.yml') && !file.endsWith('.yaml')) {
         continue
       }
       // Get filename without extension
