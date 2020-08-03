@@ -1,6 +1,6 @@
 {
   "name": "@neg4n/si18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple internationalization",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
