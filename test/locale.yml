@@ -1,0 +1,4 @@
+only:
+  for:
+    testing: 1337
+niceValue: nice

@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc"
+    "build": "./node_modules/typescript/bin/tsc",
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   "homepage": "https://github.com/neg4n/si18n/#readme",
   "devDependencies": {
     "@types/node": "^14.0.27",
+    "mocha": "^8.1.0",
+    "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
     "tslint-config-standard": "^9.0.0",
     "typescript": "^3.9.7"

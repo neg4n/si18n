@@ -9,7 +9,7 @@ export class Si18n {
 
   /**
    * Si18n initializer.
-   * @param path Path to the Si18n translations.
+   * @param path Path to the Si18n translations directory.
    */
   constructor(path: fs.PathLike) {
     const files = fs.readdirSync(path, { encoding: 'utf-8' })
@@ -27,7 +27,7 @@ export class Si18n {
       // Update locales map by inserting 
       //   key == locale name
       //   value == parsed yaml document
-      this.locales.set(localeName, translationsObject)
+      this.locales.set(localeName, Object.freeze(translationsObject))
     }
   }
 
@@ -48,3 +48,4 @@ export class Si18n {
     return temp
   }
 }
+
